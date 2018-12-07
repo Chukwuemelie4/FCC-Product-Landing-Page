@@ -10,3 +10,4 @@ body{background-color:aquamarine;}
 #submit{margin-top:2%; }
 #email{margin-top:-1%; }
 video{width:20%; height: 21%}
+@media (max-width:100em){#header-img{display: block;}}
