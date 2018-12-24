@@ -30,22 +30,33 @@ h1, h3{font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times N
 @media (orientation:portrait){
 			h3{margin-left: 3.49em;} 
 	#header-img{height: 60px;}
+	article{display: grid; grid-template-columns:60% 40%; grid-template-rows:50% 25%; 
+grid-template-areas:"a b "
+                    "c b "
+				    	;  }
+
 }
 article{display: grid}
 
 @media (orientation:landscape){
 			h3{margin-left: 3.49em; }
+	article{display: grid; grid-template-columns:60% 40%; grid-template-rows:50% 43%; 
+grid-template-areas:"a b "
+                    "c b "
+				    	;  }
 		}
 #nav-bar{display:flex;}
 .nav-link{ margin-left:20%; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; font-weight: bold;}
 .p1{grid-area: a; font-family:calibri,algerian,Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; color:lightcoral;word-spacing: 0.09em; letter-spacing: 0.09em; font-size:1.4em; font-weight: bold; line-height:  }
 #video{grid-area: c;}
-fieldset{grid-area: b; margin-top: 2%}
-article{display: grid; grid-template-columns:0.6fr 0.4fr; grid-template-rows:0.5fr 0.5fr; 
+fieldset{grid-area: b; margin-top:2% ;}
+
+article{display: grid; grid-template-columns:60% 40%; grid-template-rows:50% 25%; 
+	align-items: start;
+	align-content: start;
 grid-template-areas:"a b "
                     "c . "
 				    	;  }
-
 
 
 
