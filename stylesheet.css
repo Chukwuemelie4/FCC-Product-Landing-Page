@@ -1,13 +1,52 @@
-body{background-color:aquamarine;}
-#nav-bar{display:flex;}
+body{background-color:;}
+
 @media (orientation:landscape){
-			#header-img{display: block; }
+			#header-img{display: inline-block; }
 		}
+
 @media (orientation:portrait){
-			#header-img{display:block; }
+			#header-img{display:inline-block; }
 		}
-.nav-link{ margin-left:2%; }
-#submit{margin-top:2%; }
-#email{margin-top:-1%; }
-video{width:20%; height: 21%}
-@media (max-width:100em){#header-img{display: block;}}
+
+
+#submit{margin-top:2%; margin-left: 34%; font-weight: bold; background-color: orangered; text-shadow:20px 20px 10px blue; border-bottom: groove;}
+#submit:hover{}
+
+
+select, input{display:block; margin-top: 0.5%;}
+legend{background-color:ghostwhite; border-radius:50%; border: inset; padding: 1.5%; }
+
+iframe{display: block}
+
+video{width:21%; height: 21%}
+@media (max-width:100em){#header-img{display: inline-block;}}
+
+#header-img{ height:60px ; max-width: 15%; float:left; }
+
+h1, h3{font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; color: goldenrod; display: inline; text-align:center; }
+
+.thick{color:red; border-bottom-width: 0.45em; border-color: orangered; }
+
+@media (orientation:portrait){
+			h3{margin-left: 3.49em;} 
+	#header-img{height: 60px;}
+}
+article{display: grid}
+
+@media (orientation:landscape){
+			h3{margin-left: 3.49em; }
+		}
+#nav-bar{display:flex;}
+.nav-link{ margin-left:20%; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; font-weight: bold;}
+.p1{grid-area: a; font-family:calibri,algerian,Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; color:lightcoral;word-spacing: 0.09em; letter-spacing: 0.09em; font-size:1.4em; font-weight: bold; line-height:  }
+#video{grid-area: c;}
+fieldset{grid-area: b; margin-top: 2%}
+article{display: grid; grid-template-columns:0.6fr 0.4fr; grid-template-rows:0.5fr 0.5fr; 
+grid-template-areas:"a b "
+                    "c . "
+				    	;  }
+
+
+
+
+		
