@@ -41,7 +41,7 @@ article{display: grid}
 
 @media (orientation:landscape){
 			h3{margin-left: 3.49em; }
-		iframe{display: block; height:40%; max-width: 80%; min-width: 70%;}
+		iframe{display: block; height:50%; max-width: 48%; min-width: 40%; position: absolute;}
 
 	article{display: grid; grid-template-columns:60% 40%; grid-template-rows:50% 43%; 
 grid-template-areas:"a b "
