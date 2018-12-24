@@ -16,9 +16,8 @@ body{}
 select, input{display:block; margin-top: 0.5%;}
 legend{background-color:ghostwhite; border-radius:50%; border: inset; padding: 1.5%; }
 
-iframe{display: block}
+iframe{display: block; height:50%; width:70%;}
 
-video{width:21%; height: 21%}
 @media (max-width:100em){#header-img{display: inline-block;}}
 
 #header-img{ height:60px ; max-width: 15%; float:left; }
@@ -30,6 +29,8 @@ h1, h3{font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times N
 @media (orientation:portrait){
 			h3{margin-left: 3.49em;} 
 	#header-img{height: 60px;}
+	iframe{display: block; height:30%; max-width: 100%; min-width: 90%;}
+
 	article{display: grid; grid-template-columns:60% 40%; grid-template-rows:50% 25%; 
 grid-template-areas:"a b "
                     "c b "
@@ -40,6 +41,8 @@ article{display: grid}
 
 @media (orientation:landscape){
 			h3{margin-left: 3.49em; }
+		iframe{display: block; height:40%; max-width: 80%; min-width: 70%;}
+
 	article{display: grid; grid-template-columns:60% 40%; grid-template-rows:50% 43%; 
 grid-template-areas:"a b "
                     "c b "
