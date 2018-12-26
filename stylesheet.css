@@ -30,13 +30,16 @@ h1, h3{font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times N
 			h3{margin-left: 3.49em;} 
 	#header-img{height: 60px;}
 	iframe{display: block; height:30%; max-width: 56%; min-width: 50%; position: absolute;}
-
-	article{display: grid; grid-template-columns:60% 40%; grid-template-rows:50% 25%; 
+	 #video{grid-area: c;}
+	fieldset{grid-area: b; margin-top:2% ;}
+	.p1{grid-area: a;}
+article{display: grid; grid-template-columns:60% 40%; grid-template-rows:50% 25%; 
 grid-template-areas:"a b "
-                    "c b "
-				    	;  }
-
+	"c b ";
+align-items: stretch;
+		align-content: stretch;}
 }
+
 article{display: grid}
 
 @media (orientation:landscape){
