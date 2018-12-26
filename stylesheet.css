@@ -33,7 +33,7 @@ h1, h3{font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times N
 	 #video{grid-area: c;}
 	fieldset{grid-area: b;}
 	.p1{grid-area: a;}
-article{display: grid; grid-template-columns:60% 20%; grid-template-rows:50% 25%; 
+article{display: grid; grid-template-columns:60% 40%; grid-template-rows:50% 25%; 
 grid-template-areas:"a b "
 					"c b ";
 align-items: start;
