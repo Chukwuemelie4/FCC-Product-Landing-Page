@@ -37,7 +37,7 @@ article{display: grid; grid-template-columns:60% 40%; grid-template-rows:50% 25%
 grid-template-areas:"a b "
 	"c b ";
 align-items: center;
-		align-content: center;}
+		align-content: start;}
 }
 
 article{display: grid}
