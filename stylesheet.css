@@ -36,8 +36,8 @@ h1, h3{font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times N
 article{display: grid; grid-template-columns:60% 40%; grid-template-rows:50% 25%; 
 grid-template-areas:"a b "
 					"c b ";
-align-items: start;
-		align-content: start;}
+align-items: stretch;
+		align-content: center;}
 }
 
 article{display: grid}
